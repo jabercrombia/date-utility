@@ -2,18 +2,23 @@
   "name": "@jabercrombia/formatdate",
   "version": "1.0.0",
   "description": "TypeScript utility functions for date formatting",
-  "main": "dist/formatDate.js",
-  "types": "dist/formatDate.d.ts",
+  "main": "lib/formatDate.js",
+  "types": "lib/formatDate.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": ["date", "typescript", "utility", "format"],
+  "keywords": [
+    "date",
+    "typescript",
+    "utility",
+    "format"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.8.3"
   }
 }
