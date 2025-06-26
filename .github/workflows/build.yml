@@ -3,7 +3,7 @@ name: Build TypeScript Package
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
 
 jobs:
   build:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -24,8 +24,11 @@ jobs:
       - name: Build package
         run: npm run build
 
+      - name: List lib folder contents
+        run: ls -R lib
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: build-lib
-          path: src/
+          name: lib
+          path: lib/
