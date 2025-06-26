@@ -6,5 +6,25 @@
   "files": [
     "lib"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This package provides simple TypeScript utility functions to format date strings into readable formats.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabercrombia/date-utility.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jabercrombia/date-utility/issues"
+  },
+  "homepage": "https://github.com/jabercrombia/date-utility#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
