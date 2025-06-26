@@ -2,6 +2,10 @@
   "name": "@jabercrombia/formatdate",
   "version": "1.0.0",
   "description": "TypeScript utility functions for date formatting",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabercrombia/formatdate"
+  },
   "main": "lib/formatDate.js",
   "types": "lib/formatDate.d.ts",
   "files": [
@@ -16,7 +20,7 @@
     "utility",
     "format"
   ],
-  "author": "Your Name",
+  "author": "Justin Abercrombia",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.3"
