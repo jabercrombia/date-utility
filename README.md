@@ -9,13 +9,13 @@ You can install this utility directly from GitHub in your Next.js or JavaScript 
 Using npm:
 
 ```bash
-npm install github:your-username/date-utils
+npm install github:jabercrombia/date-utils
 ```
 
 Using yarn:
 
 ```bash
-yarn add github:your-username/date-utils
+yarn add github:jabercrombia/date-utils
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ yarn add github:your-username/date-utils
 Import the function and use it to format UTC date strings:
 
 ```ts
-import { formatUTCToMonthDayYear } from "date-utils/src/formatDate";
+import { formatUTCToMonthDayYear } from "date-utils/lib/formatDate";
 
 const formattedDate = formatUTCToMonthDayYear("2025-06-06T00:00:00.000-05:00");
 console.log(formattedDate); // Output: June 6, 2025
@@ -34,7 +34,7 @@ console.log(formattedDate); // Output: June 6, 2025
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/date-utils.git
+git clone https://github.com/jabercrombia/date-utils.git
 ```
 
 2. Make your changes.
