@@ -1,45 +1,39 @@
-# Date Utils
+# Date Utilities
 
-A simple TypeScript utility function to format UTC date strings into "Month Day, Year" format.
+This package provides simple TypeScript utility functions to format date strings into readable formats.
 
-## Installation
+## Functions
 
-You can install this utility directly from GitHub in your Next.js or JavaScript projects.
+### `formatDate(dateString: string): string`
 
-Using npm:
+Formats a date string into a short month and numeric year (e.g., "Jun 2025") using the US English locale.
 
-```bash
-npm install github:jabercrombia/date-utils
-```
+**Parameters:**
+- `dateString`: The date string to format (ISO 8601 or compatible).
 
-Using yarn:
+**Returns:**
+- Formatted date string with abbreviated month and year.
 
-```bash
-yarn add github:jabercrombia/date-utils
-```
+### `formatUTCToMonthDayYear(dateString: string): string`
+
+Converts an ISO UTC date string to a human-readable format: "Month Day, Year".
+
+**Example:** `"2025-06-06T00:00:00.000-05:00"` → `"June 6, 2025"`
+
+**Parameters:**
+- `dateString`: A valid ISO date string (UTC or with timezone offset).
+
+**Returns:**
+- A formatted string in the "Month Day, Year" format.
 
 ## Usage
 
-Import the function and use it to format UTC date strings:
-
 ```ts
-import { formatUTCToMonthDayYear } from "date-utils/lib/formatDate";
+import { formatDate, formatUTCToMonthDayYear } from "@jabercrombia/date-utils";
 
-const formattedDate = formatUTCToMonthDayYear("2025-06-06T00:00:00.000-05:00");
-console.log(formattedDate); // Output: June 6, 2025
+console.log(formatDate("2025-06-06T00:00:00.000-05:00")); // Jun 2025
+console.log(formatUTCToMonthDayYear("2025-06-06T00:00:00.000-05:00")); // June 6, 2025
 ```
-
-## Development
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/jabercrombia/date-utils.git
-```
-
-2. Make your changes.
-
-3. Commit and push.
 
 ## License
 
