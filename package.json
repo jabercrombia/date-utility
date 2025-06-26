@@ -1,0 +1,10 @@
+{
+  "name": "@jabercrombia/date-utils",
+  "version": "1.0.0",
+  "main": "lib/formatDate.ts",
+  "types": "lib/formatDate.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT"
+}
