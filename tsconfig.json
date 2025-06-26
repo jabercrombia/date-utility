@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
-    "declaration": true,
-    "module": "CommonJS",
-    "target": "ES6",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "target": "ES2019",             // JS version output
+    "module": "CommonJS",           // module system for Node/npm
+    "declaration": true,            // generate .d.ts files
+    "outDir": "lib",                // compiled files go here
+    "strict": true,                 // strict TS checks
+    "esModuleInterop": true,        // for import compatibility
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]           
 }
