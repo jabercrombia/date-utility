@@ -2,6 +2,16 @@
 
 This package provides simple TypeScript utility functions to format date strings into readable formats.
 
+## 📦 Installation
+
+You can install this utility directly from GitHub in your Next.js or TypeScript project.
+
+Using **npm**:
+
+```bash
+npm install github:jabercrombia/date-utils
+```
+
 ## Functions
 
 ### `formatDate(dateString: string): string`
