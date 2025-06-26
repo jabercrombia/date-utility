@@ -9,7 +9,7 @@ You can install this utility directly from GitHub in your Next.js or TypeScript 
 Using **npm**:
 
 ```bash
-npm install github:jabercrombia/date-utils
+npm install github:jabercrombia/date-utility
 ```
 
 ## Functions
